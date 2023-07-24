@@ -1,0 +1,316 @@
+.cliniclogo img{
+    width: 90px;
+    height: 67px;
+}
+.cliniclogo{
+    width: 100px;
+    padding-left: 44px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.svglogomain{
+    color: red;
+    width: 120px;
+    height: 120px;
+}
+.cliniclogoSpan{
+   color: #FF2C52;
+   font-size: 22px;
+   line-height: 26px;
+   font-weight: 500;
+   position: relative;
+   right: 30px;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    
+    
+    
+}
+.row{
+    display: flex;
+    width: 100%;
+    gap: 140px;
+    
+    
+   
+}
+.ullist{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.ullist li {
+    list-style: none;
+    gap: 60px;
+    font-weight:500;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #053354;
+
+ 
+
+    
+    
+
+}
+.registrationAndAuthorization{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 40px;
+    background: 
+    #ECF2F8;
+    border-radius: 30px;
+    position: relative;
+    right: 75px;
+    top: 30px;
+
+}
+.lang{
+    display:flex;
+    
+    background: 
+    #ECF2F8;
+    height: 40px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    right: 35px;
+    border-radius: 20px;
+}
+.registration{
+    color: 
+    #18A4E1;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+}
+.authorization{
+    color: #053354;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.section{
+    width: 100%;
+    height: 100px;
+    background: 
+    #ECF2F8;
+    display: flex;
+}
+.clinicnumber{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 57px;
+    gap: 30px;
+}
+.phone{
+    position: relative;
+    right: 58px;
+}
+.mobile{
+    position: relative;
+    right: 49px;
+    
+    font-family: FiraGO;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0.07em;
+text-align: left;
+width: 122px;
+}
+.pin{
+    position: relative;
+    right: 58px;
+}
+.addres{
+    font-family: FiraGO;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+position: relative;
+right: 80px;
+width: 200px;
+
+}
+.dot{
+    position: relative;
+    right: 98px;
+    color: #18A4E1;
+}
+.forinputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 580px;
+left: 720px;
+top: 145px;
+
+gap: 20px;
+
+}
+.forinputs input {
+    padding: 10px 0px 10px 20px;
+    width: 265px;
+    border-radius: 50px;
+    border: white;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.searchicon{
+    position: relative;
+    right: 35px;
+}
+.formbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.formbox input {
+    width: 70%;
+    color: rgba(236, 242, 248, 1);
+    
+    height: 50px;
+    
+    border: 1px solid #ECF2F8;
+     border-radius: 50px;
+}
+
+    ::ng-deep .p-button {
+        background: #ECF2F8;
+        height: 50px;
+        border:none;
+        color:rgba(24, 164, 225, 1);
+        height: 40px;
+        border-radius: 50%;
+        padding: 0;
+
+        
+    }    
+    ::ng-deep .p-button:enabled:active{
+        background: none;
+        border: none;
+    }
+    ::ng-deep .p-button:enabled:hover{
+        background: none;
+        border: none;
+        border-color: none;
+    }
+    ::ng-deep .p-button:enabled:focus{
+        outline: 0 none;
+        outline-offset: 0;
+        box-shadow: none;
+
+    }
+    ::ng-deep .p-dialog .p-dialog-footer button{
+        background: rgba(5, 51, 84, 1);
+        font-family: FiraGO;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color:  rgba(255, 255, 255, 1);
+width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    margin-top: 30px;
+
+
+    }
+    a{
+        text-decoration: none;
+    }
+    .img1{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+    }
+   
+   
+    .btn{
+        height: 50px;
+        width: 180px;
+        color: white;
+        border-radius: 20px;
+        background-color: rgba(5, 51, 84, 1);
+        font-family: FiraGO;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    border: none;
+    margin-top: 20px;
+    margin-left: 180px;
+    cursor: pointer;
+    
+
+
+    }
+.imgicon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    right: 84px;
+}
+.d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 65px;
+    color: blue;
+    width: 200px;
+
+}
+.showprofileimage{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}

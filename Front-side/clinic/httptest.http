@@ -1,0 +1,29 @@
+GET https://localhost:7067/api/Auth/GetParameters HTTP/1.1
+Authorization: Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJiZXNzaWUucmV5bm9sZHNAZXRoZXJlYWwuZW1haWwiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJ1c2VyIiwiZXhwIjoxNjgyNDMxMDk3fQ.yVkiPnefS56suOicxFDQGzP-WHIJ3U48z2vpV3SmTCZNRhSppeZ2Tw-lnJhlEjdDJU5IF9kS3A3gYXooOTgfEw
+
+###
+POST https://localhost:7067/api/Auth/login HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "bessie.reynolds@ethereal.email",
+  "password": "305032"
+}
+###
+POST https://localhost:7067/api/Auth/SentCode?addressMail=t.tabatadze13@gmail.com HTTP/1.1
+Content-Type: application/json
+
+{}
+###
+POST https://localhost:7067/api/Doctors HTTP/1.1
+accept: */*
+Content-Type: multipart/form-data
+
+  Firstname=გიორგი
+ Lastname=კალანდაძე 
+ Cv=@medical-doctor-1585049066-pdf.jpg;type=image/jpeg
+ Photo=@e8cb173bb6619b9823922071da00ace8.jpg;type=image/jpeg
+ Personalid=3058723
+ Email=gio@gmail.com
+ Password=305032
+ Category=პედიატრი

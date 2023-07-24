@@ -1,0 +1,113 @@
+.container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    padding-top: 45px;
+}
+.row input {
+    color: rgba(236, 242, 248, 1);
+border: 1px solid #ECF2F8;
+border-radius: 50px;
+height: 50px;
+
+}
+.row span{
+   color: rgba(5, 51, 84, 1);
+   padding-left: 25px;
+   font-family: FiraGO;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 10px;
+
+   
+}
+.title{
+  
+    font-family: FiraGO;
+font-size: 26px;
+font-weight: 500;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(24, 164, 225, 1);
+display: flex;
+padding-left: 60px;
+    padding-top: 30px;
+
+}
+.messageicon{
+    position: relative;
+    bottom: 30px;
+    left: 330px;
+}
+.code{
+    position: relative;
+    bottom: 30px;
+    left: 270px;
+}
+.btn{
+    height: 50px;
+    width: 180px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgba(5, 51, 84, 1);
+    font-family: FiraGO;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+border: none;
+margin-top: 20px;
+margin-left: 180px;
+cursor: pointer;
+
+
+}
+.btn:hover {
+    transform: scale(1.2);
+    transition: ease-in-out 0.5s;
+}
+form{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+.activatecode{
+    margin-top: -15px;
+}
+.email1{
+width: 100%;
+cursor: pointer;
+}
+.btn1{
+    height: 50px;
+    width: 180px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(59, 127, 175);
+    font-family: FiraGO;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+border: none;
+margin-top: 20px;
+margin-left: 180px;
+cursor: pointer;
+
+
+}
+.btn1:hover {
+    transform: scale(1.2);
+    transition: ease-in-out 0.5s;
+}

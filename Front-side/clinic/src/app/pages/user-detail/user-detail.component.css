@@ -1,0 +1,210 @@
+@font-face{
+    font-family: FiraGO;
+    src: url(../../../assets/FiraGO-Light.ttf);
+}
+
+.sidemenu{
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    height: 900px;
+}
+.menu{
+    width: 23%;
+    height: 630px;
+    display: flex;
+    
+    align-items: center;
+   
+    padding-left: 15px;
+    background: rgba(255, 255, 255, 1);
+    background: #FFFFFF;
+box-shadow: 0px 4px 50px rgba(5, 51, 84, 0.05);
+border-radius: 10px;
+justify-content: space-between;
+
+   
+}
+.ullist li {
+    list-style: none;
+    font-family: FiraGO;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(5, 51, 84, 1);
+height: 100%;
+
+}
+.s{
+    width: 10%;
+    height: 500px;
+    
+}
+.s svg{
+    font-family: 'FiraGO';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+line-height: 19px;
+
+color: rgba(5, 51, 84, 0.3);
+}
+.forlist{
+    display: flex;
+
+    width: 80%;
+    height: 500px;
+}
+.liitems{
+    display: flex;
+    align-items: center;
+}
+.ullist{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+    padding-top: 10px;
+}
+.profilemenu{
+   background:  rgba(255, 255, 255, 1);
+  border: 1px solid rgba(236, 242, 248, 1);
+    width: 300px;
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 4px 30px 0px rgba(5, 51, 84, 0.05);
+    align-items: center;
+
+}
+.forimage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 77%;
+    justify-content: space-between;
+    align-items: center;
+}
+.forimage img{
+    border-radius: 50%;
+    width: 167px;
+    height: 157px;
+}
+.spantag{
+    color:  rgba(5, 51, 84, 0.3);
+ 
+    font-family: FiraGO;
+    
+}
+.forimage p {
+   color: rgba(5, 51, 84, 1);
+   font-family: FiraGO;
+   font-weight: 600;
+}
+.username{
+    color:  rgba(24, 164, 225, 1);
+    font-family: FiraGO;
+    font-weight: 600;
+    font-size: 15px;
+    
+}
+.calendar{
+    width: 630px;
+    height: 630px;
+    
+}
+.appcalendar{
+    height: 80%;
+}
+.title{
+    color:rgba(24, 164, 225, 1);
+    font-size: 25px;
+    font-family: FiraGO;
+    font-weight: 600;
+    position: relative;
+    bottom: 25px;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+    padding-top: 70px;
+
+}
+.change{
+    background: rgba(236, 242, 248, 1);
+    color:  rgba(24, 164, 225, 1);
+    border: none;
+    border-radius: 20px;
+    font-family: FiraGO;
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+width: 200px;
+height: 47px;
+cursor: pointer;
+}
+.delete{  background: rgba(255, 147, 166, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 20px;
+    font-family: FiraGO;
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+width: 150px;
+height: 47px;
+cursor: pointer;
+
+}
+.deleteicon{
+    position: relative;
+    left: 36px;
+    top: 12px;
+}
+.changeparams{
+    position: relative;
+    right: 357px;
+    top: 12px;
+}
+.chng{
+    position: relative;
+    left: 261px;
+    top: 6px;
+    font-size: FiraGO;
+    color: rgba(5, 51, 84, 0.3);
+    
+}
+.forlist ul li{
+    font-weight: 600;
+}
+.s ul li{
+    color: rgba(5, 51, 84, 0.3);
+}
+.logout{
+    background: rgba(255, 147, 166, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 20px;
+    font-family: FiraGO;
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+width: 150px;
+height: 47px;
+cursor: pointer;
+margin-left: 20px;
+margin-bottom: 20px;
+
+}

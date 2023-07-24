@@ -1,0 +1,315 @@
+@font-face{
+    font-family: FiraGo;
+    src: url(../../../assets/FiraGO-Light.ttf);
+
+}
+
+.container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-image: url("https://images.unsplash.com/photo-1586773860418-d37222d8fce3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHw%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 42% 46%;
+    display: flex;
+    align-items: center;
+    row-gap: 20px;
+   
+   
+}
+
+.title p{
+     display: flex;
+     font-family: FiraGO;
+font-size: 48px;
+font-weight: 600;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+width: 604px;
+
+
+
+}
+.title{
+    padding-left: 45px;
+    width: 50%;
+    
+}
+
+.addres {
+    display: flex;
+    font-family: FiraGO;
+font-size: 22px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(5, 51, 84, 1);
+background: white;
+width: 350px;
+height: 55px;
+border-radius: 50px;
+align-items: center;
+justify-content: center;
+position: relative;
+top: 50px;
+backdrop-filter: (4px);
+
+
+}
+.viewersCount{
+    position: relative;
+    right: 69px;
+    bottom: 10px;
+}
+.spinner{
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.btn1{
+    border: none;
+    outline: none;
+    background: none;
+}
+.icon{
+    position: relative;
+    left: 20px;
+    top: 9px;
+}
+.dot{
+    position: relative;
+    left: 5px;
+    bottom: 4px;
+    
+}
+.sidemenu{
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    height: 1400px;
+}
+.menu{
+    width: 23%;
+    height: 500px;
+    display: flex;
+    
+    align-items: center;
+   
+    padding-left: 15px;
+    background: rgba(255, 255, 255, 1);
+    background: #FFFFFF;
+box-shadow: 0px 4px 50px rgba(5, 51, 84, 0.05);
+border-radius: 10px;
+justify-content: space-between;
+
+   
+}
+
+.ullist{
+    display: flex;
+    flex-direction: column;
+   height: 500px;
+    width: 100%;
+    padding-top: 10px;
+
+}
+.ullist li {
+    list-style: none;
+    font-family: FiraGO;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(5, 51, 84, 1);
+height: 100%;
+
+}
+.s{
+    width: 10%;
+    height: 500px;
+    
+}
+.s svg{
+    font-family: 'FiraGO';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+line-height: 19px;
+
+color: rgba(5, 51, 84, 0.3);
+}
+.forlist{
+    display: flex;
+
+    width: 80%;
+    height: 500px;
+}
+.liitems{
+    display: flex;
+    align-items: center;
+}
+.carditem{
+    
+background: #FFFFFF;
+border: 1px solid rgba(24, 164, 225, 0.3);
+box-shadow: 0px 4px 30px rgba(5, 51, 84, 0.05);
+border-radius: 10px;
+width: 250px;
+height: 350px;
+gap: 5px;
+
+}
+.profiles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    width: 60%;
+    height: 700px;
+    gap: 4px;
+    
+}
+.info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    
+
+}
+.starbox{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.info img {
+    width: 50%;
+    height: 40%;
+    border-radius: 40px;
+    
+}
+.button{
+display: flex;
+align-items: center;
+justify-content: center;
+box-sizing: border-box;
+width: 200px;
+height: 50px;
+border: 1px solid #18A4E1;
+border-radius: 25px;
+font-family: FiraGO;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(24, 164, 225, 1);
+background: rgba(255, 255, 255, 1);
+cursor: pointer;
+
+
+}
+.button:hover {
+    background-color:rgba(5, 51, 84, 0.3); 
+    color: white;
+    transition:  ease-in-out 0.3s;
+}
+.name{
+    font-family: FiraGO;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(5, 51, 84, 0.3);
+display: flex;
+text-align: center;
+
+}
+.fullname{
+    font-family: FiraGO;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(5, 51, 84, 1);
+
+}
+.arrow{
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+.forsvg{
+    display: flex;
+    
+    justify-content: space-between;
+    width: 92%;
+}
+.viewicon{
+    position: relative;
+    right: 140px;
+    top: 7px;
+}
+.profileicon{
+    width: 160px;
+    height: 50%;
+}
+.profileicon img{
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+}
+a{
+    text-decoration: none;
+}
+.s ul li:hover{
+    background: rgba(236, 242, 248, 0.5)
+}
+.forlist ul li:hover{
+    background: rgba(236, 242, 248, 0.5)
+}
+.forlist ul li{
+    font-weight: 600;
+}
+.s ul li{
+    color: rgba(5, 51, 84, 0.3);
+}
+
+.logout{
+    background: rgba(255, 147, 166, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 20px;
+    font-family: FiraGO;
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+width: 150px;
+height: 47px;
+cursor: pointer;
+margin-left: 20px;
+margin-bottom: 20px;
+
+}
+
+
